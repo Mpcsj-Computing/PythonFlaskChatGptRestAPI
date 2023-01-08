@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "chatgpt-rest-api"
+version = "0.1.0"
+description = ""
+authors = ["Mpcsj <mpcsjempreendimentos@gmail.com>"]
+readme = "README.md"
+packages = [{include = "chatgpt_rest_api"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+flask = "^2.2.2"
+openai = "^0.25.0"
+python-dotenv = "^0.21.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
